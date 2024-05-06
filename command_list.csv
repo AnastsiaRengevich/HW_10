@@ -1,0 +1,38 @@
+    1  cd homework_goit
+    2  git status
+    3  pwd
+    4  cd documents
+    5  cd homework_goit
+    6  cd ..
+    7  pwd
+    8  mkdir homework_goit
+    9  git status
+   10  cd homework_goit
+   11  git config --global user.name AnastsiaRengevich
+   12  git config --global user.email rengevuch_nastya@ukr.net
+   13  git clone https://github.com/AnastsiaRengevich/HW_10.git
+   14  cd HW_10
+   15  touch text_ignore.txt
+   16  nano .gitignore
+   17  git status
+   18  git add .
+   19  git commit -m "added new txt file"
+   20  mkdir main_test.txt
+   21  git add .
+   22  git commit -m "added new txt file"
+   23  git branch develop
+   24  git checkout develop
+   25  mkdir develop_test.txt
+   26  git add .
+   27  git commit -m "added new txt file"
+   28  nano develop_test.txt
+   29  git status
+   30  git add .
+   31  nano develop_test.txt
+   32  git status
+   33  git add .
+   34  git commit -m "added new txt file"
+   35  git checkout main
+   36  git merge develop
+   37  git log
+   38  history > command_list.csv
